@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1056577652987",
+    "firebase_url": "https://navignext.firebaseio.com",
+    "project_id": "navignext",
+    "storage_bucket": "navignext.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056577652987:android:bd4fe2263b56c04af6885e",
+        "android_client_info": {
+          "package_name": "com.example.mapsdemo2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056577652987-kjp9ste4mhvnar1kd7c2flfgamgjbt7q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mapsdemo2",
+            "certificate_hash": "27aacdd375818ca9cc424854c54d4dccb8e5e78f"
+          }
+        },
+        {
+          "client_id": "1056577652987-aie5jcgond1v0bcgkkel6oevj146noev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoi3FOh1exH-KzaUVgVt-dFZpbtIFbRxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056577652987-aie5jcgond1v0bcgkkel6oevj146noev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

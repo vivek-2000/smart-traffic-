@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TF_location"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        tools:context=".MapsActivity" />
+
+    <EditText
+        android:id="@+id/textFieldLocation"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:background="@drawable/bg_round"
+        android:ems="10"
+        android:hint="Search Place"
+        android:includeFontPadding="false"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp" />
+
+    <Button
+        android:id="@+id/B_search"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textFieldLocation"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/accident"
+        android:layout_toRightOf="@+id/accident"
+        android:layout_x="252dp"
+        android:layout_y="1dp"
+        android:background="@drawable/bg_round"
+        android:onClick="onClick"
+        android:text="Search"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/accident"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textFieldLocation"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/jambtn"
+        android:layout_toRightOf="@+id/jambtn"
+        android:background="@drawable/bg_round"
+        android:onClick="onClick"
+        android:text="Accident" />
+
+    <Button
+        android:id="@+id/jambtn"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textFieldLocation"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/bg_round"
+        android:onClick="onClick"
+        android:text="Jam" />
+
+    <Button
+        android:id="@+id/directions"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textFieldLocation"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/B_search"
+        android:layout_toRightOf="@+id/B_search"
+        android:background="@drawable/bg_round"
+        android:onClick="onClick"
+        android:text="Exit"
+        android:textSize="14sp"
+        android:visibility="visible" />
+
+
+</RelativeLayout>
+
